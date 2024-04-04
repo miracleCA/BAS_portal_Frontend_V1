@@ -7,8 +7,8 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAhnHFy2tc6JieE9o6b7i5Fhz-mMTGTCYI",
-  authDomain: "brilliant-avenir.firebaseapp.com",
+  apiKey: {API KEY},
+  authDomain: {Auth Domain},
   projectId: "brilliant-avenir",
   storageBucket: "brilliant-avenir.appspot.com",
   messagingSenderId: "13421414670",
