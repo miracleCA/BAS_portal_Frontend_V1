@@ -1,0 +1,12 @@
+.Update #main {
+    display: flex;
+}
+.Update #main #mainrow {
+    display: grid;
+    height: 100%;
+    width: 85%;
+    margin: 2%;
+}
+.Update #main #r1 {
+    width: 100%;
+}

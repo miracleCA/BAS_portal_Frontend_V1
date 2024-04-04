@@ -1,0 +1,15 @@
+#Account #row1 {
+    width: -webkit-fill-available;
+    padding: 1%;
+    display: flex;
+}
+#Account .col-8, #Account .col-4 {
+    background-color: white;
+}
+#Account table {
+    width: -webkit-fill-available;
+}
+#Account tr {
+    border-bottom: 1px solid grey;
+    height: 40px;
+}

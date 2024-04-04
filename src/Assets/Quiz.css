@@ -1,0 +1,38 @@
+.Quiz #main {
+    display: flex;
+}
+.Quiz #main #quizrow {
+    display: grid;
+    height: 100%;
+    width: 85%;
+    margin: 2%;
+}
+.Quiz #main #r1 {
+    width: 100%;
+}
+.Quiz #mr2 {
+    display: grid;
+}
+.Quiz form {
+    border: 1px solid #ced1d4;
+}
+.Quiz form .row{
+    margin: 0;
+}
+#quiz3 {
+    display: grid;
+    padding: 1%;
+}
+#quiz3 td, #quiz3 th {
+    font-weight: normal;
+}
+#lss {
+    padding: 1%;
+}
+#lss table {
+    width: 100%;
+}
+#lss th, #lss td {
+    width: fit-content;
+    font-weight: normal;
+}

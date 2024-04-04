@@ -1,0 +1,254 @@
+.Home {
+    font-family: 'Poppins';
+}
+.Home .Header {
+    background-image: url(../Images/Brillant.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 700px;
+}
+.Home #rowe {
+    text-transform: uppercase;
+    margin-top: 10%;
+}
+.Home #bold{
+    font-size: 60px;
+    color: red;
+    line-height: 80px;
+}
+#welco {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.navbar {
+    padding: 0px;
+}
+.navbar-nav a:link, a:visited {
+  color: black;
+  padding: 7px 10px;
+  margin: 0px 4px;
+  text-align: center;
+  border: 2px solid inherit;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+.Home #rowe #sa {
+    color: white;
+}
+.Home #rowe a:link, a:visited {
+    color: black;
+    padding: 7px 10px;
+    margin: 0px 4px;
+    text-align: center;
+    border: 2px solid inherit;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.Home #rowe i {
+    font-size: 10px;
+}
+#logo {
+    width: 30%;
+}
+#web {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+#std {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: white;
+}
+#stf {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
+.ml-auto i {
+    font-size: 10px;
+    padding: 5px;
+}
+.body1 {
+    justify-content: center;
+    text-align: center;
+    margin: 10% 0px;
+}
+#bentxt {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 2% 10px;
+}
+#txthead {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 3% 0px;
+}
+.body3 {
+    padding: 5% 15%;
+}
+#contus, #formtitle {
+    font-size: 27px;
+}
+#formwrapper .input-container{
+    width: -webkit-fill-available;
+    display: flex;
+}
+#formcol {
+    display: grid;
+}
+#formwrapper #formcol {
+    width: 50%;
+}
+#formwrapper .formi {
+    margin-right: 2.5%;
+}
+#formwrapper #name, #formwrapper #email {
+    width: -webkit-fill-available;
+    height: 50px;
+}
+#formwrapper #message {
+    width: -webkit-fill-available;
+    margin-top: 15px;
+}
+.body3 #error{
+    color: red;
+    font-family: poppins;
+    font-size: 15px;
+    padding-top: 7px;
+}
+form #btn {
+    justify-content:flex-end ;
+    float: right;
+    padding: 7px 7px;
+    border: none;
+    border-radius: 2px;
+    background-color: #f1e20a;
+    color: white;
+    font-weight: bold;
+}
+#lastfoot {
+    height: 50px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    align-content: center;
+    justify-content: center;
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    .Home nav {
+        width: -webkit-fill-available;
+    }
+    nav .navbar-toggler {
+        border: 2px solid white;
+    }
+    .navbar-nav #web, .navbar-nav #stf, .navbar-nav #std{
+        margin: 5px 0px;
+    }
+    .col-1 {
+        display: none;
+    }
+    .col-auto {
+        margin: auto;
+    }
+    .col-5  {
+        width: max-content;
+    }
+    .col-5 span {
+        width: max-content;
+    }
+    #welco {
+        font-size: 20px;
+    }
+    .Home .Header {
+        padding: 10% 5%;
+        height: max-content;
+    }
+    .Home #bold {
+        line-height: 50px;
+        display: flex;
+        font-size: 40px;
+    }
+    .Home #rowe a:link {
+        padding: 12px 22px;
+    }
+    .Home #rowe i {
+        font-size: 12px;
+    }
+    #break {
+        display: none;
+    }
+    #formwrapper {
+        margin-top: 30px;
+    }
+    #formwrapper .input-container {
+        display: grid;
+    }
+    #formwrapper #formcol {
+        margin: 7px 0px;
+        width: -webkit-fill-available;
+    }
+    #formwrapper #message {
+        margin-top: 5px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 380px) {
+    .Home .Header {
+        height: fit-content;
+    }
+    .Home .Header .col-5 span {
+        margin: 10px 0px;
+    }
+    .Home .Header .col-5 span a{
+        flex: none;     
+    }
+    .Home .navbar-toggler {
+        padding: revert;
+        border: 2px solid white;
+    }
+    #welco {
+        text-wrap: nowrap;
+    }
+    #bentxt {
+        font-size: 25px;
+    }
+    .Home #bold {
+        font-size: 30px;
+        line-height: 30px;
+        text-wrap: nowrap;
+    }
+    .Home #hdls {
+        margin-bottom: 5%;
+    }
+    .Home .navbar-collapse a {
+        margin: 5px 0px;
+    }
+    .Home form {
+        display: grid;
+    }
+    #formwrapper .input-container {
+        display: grid;
+    }
+    #formwrapper #formcol {
+        margin: 7px 0px;
+        width: -webkit-fill-available;
+    }
+    #formwrapper #message {
+        margin: 7px 0px;
+    }
+    .body3 {
+        padding: 5% 10%;
+    }
+    #lastfoot {
+        text-align: center;
+        display: table-cell;
+    }
+}

@@ -1,0 +1,18 @@
+.Leave #main {
+    display: flex;
+}
+.Leave #main #mainrow {
+    display: grid;
+    height: 100%;
+    width: 85%;
+    margin: 2%;
+}
+.Leave #main #r1 {
+    width: 100%;
+}
+.Leave #main #r1 span {
+    width: 6.5%;
+}
+.Leave #main #r1 .col {
+    width: 74%;
+}

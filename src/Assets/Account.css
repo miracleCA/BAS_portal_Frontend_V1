@@ -1,0 +1,99 @@
+.Account #main {
+    display: flex;
+}
+#container {
+    display: flex;
+    width: 85%;
+    padding: 2%;
+}
+#container .col-4 {
+    font-family: poppins;
+}
+#idd {
+    font-size: 15px;
+}
+#carrier {
+    display: grid;
+}
+#straight {
+    display: flex;
+}
+#straight button {
+    border: 1px solid #ced1d4;
+    font-size: 15px;
+    padding: 5px 10px;
+    font-family: poppins;
+}
+#straight button:hover {
+    color: #285e8e;
+    border: 2px solid #285e8e;
+}
+#straight button i {
+    padding: 2px 5px;
+}
+#ond {
+    display: grid;
+    padding-bottom: 5%;
+}
+#hdtxt {
+    font-size: 15px;
+    color: #b2b8bd;
+}
+#hdtxt i {
+    padding-right: 5px;
+}
+#txtcon {
+    font-size: 17px;
+    color: #525658;
+}
+#conte1, #conte2 {
+    padding: 2%;
+    font-family: poppins;
+}
+#conte1 #ond {
+    padding-bottom: 2%;
+}
+#id {
+    font-weight: bold;
+}
+#conte1, #conte2, #conte3, #conte4 {
+    display: grid;
+    background-color: white;
+    border: 1px solid #ced1d4;
+}
+#conte4 {
+    padding: 2%;
+    border: 1px solid #ced1d4;
+}
+#conte4 table {
+    width: 100%;
+    border: 1px solid #ced1d4;
+}
+#conte4 table tr {
+    border-bottom: 1px solid #ced1d4;
+    display: flex;
+    background-color: #f8fafa;
+}
+#conte4 table th, #conte4 table td {
+    width: 50%;
+    padding: 2%;
+    font-weight: 100;
+    font-family: poppins;
+}
+#conte4 table th {
+    border-right: 1px solid #ced1d4;
+}
+#conte4 table button {
+    margin: 2%;
+    padding: 4px 10px;
+    color: white;
+    background-color: #36a9e1;
+    border: none;
+    font-family: poppins;
+    font-weight: normal;
+    border-radius: 4px;
+}
+#conte4 table button:active, #conte4 table button:hover {
+    background-color: #285e8e;
+    border: 0px;
+}

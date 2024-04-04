@@ -1,0 +1,56 @@
+#authform {
+    background-color: white;
+    padding: 20% 10%;
+    border-radius: 10px;
+    display: grid;
+}
+#error {
+    color: red;
+    text-transform: none;
+}
+#authform form {
+    display: grid;
+}
+#username, #password, #submit {
+    height: 60px;
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+#submit {
+    background-color: green;
+    color: white;
+    border: none;
+}
+span #forg:hover {
+    color: red;
+}
+@media only screen and (max-width: 600px) {
+    #formcoll {
+        margin-inline: auto;
+        justify-self: center;
+    }
+    #authform {
+        width: max-content;
+        padding: 15% 7%;
+        margin-bottom: 5%;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 330px) {
+    #authform {
+        padding: 15% 7%;
+        justify-self: center;
+    }
+}
+@media only screen and (min-width: 335px) and (max-width: 600px) {
+    #formcoll {
+        display: grid;
+    }
+    #authform {
+        justify-self: center;
+    }
+}
+@media only screen and (min-width: 700px) and (max-width:850px) {
+    #authform {
+        padding: 12% 5%;
+    }
+}

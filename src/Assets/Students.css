@@ -1,0 +1,58 @@
+#Students #main {
+    display: flex;
+}
+#Students #row1 {
+    width: -webkit-fill-available;
+    padding: 1%;
+}
+#Students #row1 i {
+    padding-right: 1%;
+    place-self: center;
+}
+#fris {
+    display: flex;
+    margin-bottom: 1%;
+    background-color: white;
+}
+#coont {
+    display: flex;
+}
+#cont1, #cont2, #cont3, #cont4, #cont5 {
+    width: 20%;
+    margin:0% 0.5%;
+}
+#cont1 {
+    height: 250px;
+    display: grid;
+    border: 1px solid grey;
+    padding: 2% 2%;
+}
+#cont1 span {
+    text-align: center;
+    align-content: center;
+    display: grid;
+    font-weight: bold;
+}
+#passp {
+    height: 170px;
+    font-size: 25px;
+    border: 1px solid grey;
+}
+#cont2 a {
+    display: grid;
+    text-align: center;
+    text-decoration: none;
+}
+#cont2, #cont2 span {
+    display: grid;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+#cont2 span {
+    justify-content: space-around;
+}
+#cont2 i {
+    font-size: 45px;
+}

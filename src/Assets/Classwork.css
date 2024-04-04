@@ -1,0 +1,47 @@
+.Classwork #main {
+    display: flex;
+}
+#rowcont {
+    display: grid;
+    width: 85%;
+    padding-left: 2%;
+}
+.Classwork #main #classrow {
+    height: 100%;
+    margin: 2%;
+}
+.Classwork #main #r1 {
+    width: 100%;
+}
+.Classwork #main #r1 span {
+    width: 6.5%;
+}
+.Classwork #mr2 {
+    width: 100%;
+    padding: 2%;
+    background-color: white;
+    border: 1px solid #ced1d4;
+    margin-bottom: 3%;
+}
+.Classwork #mr22 table{
+    width: 100%;
+    font-family: poppins;
+}
+.Classwork tr button {
+    margin: 1%;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+}
+#mett tr {
+    border: 1px solid #ced1d4;
+}
+#mett th {
+    padding: 1%;
+    border-right: 1px solid #ced1d4;
+}
+#mett td {
+    padding: 1%;
+    border-right: 1px solid #ced1d4;
+}

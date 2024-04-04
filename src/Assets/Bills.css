@@ -1,0 +1,23 @@
+.Bills #main {
+    display: flex;
+}
+#tabcarr {
+    width: -webkit-fill-available;
+}
+.Bills table {
+    width: inherit;
+}
+.Bills table tr {
+    display: flex;
+    border: 2px solid grey;
+}
+.Bills table th {
+    border-right: 2px solid grey;
+    padding: 10px 0px;
+    width: 17%;
+}
+.Bills table td {
+    border-right: 2px solid grey;
+    padding: 10px 0px;
+    width: 17%;
+}

@@ -1,0 +1,56 @@
+.Assignment #main {
+    display: flex;
+}
+#rowcont {
+    display: grid;
+    width: 85%;
+    padding-left: 2%;
+}
+.Assignment #main #assrow {
+    display: grid;
+    height: 100%;
+    margin: 2%;
+}
+.Assignment #main #r1 {
+    width: 100%;
+}
+.Assignment #main #r1 span {
+    width: 6.5%;
+}
+.Assignment #main #r1 .col {
+    width: 74%;
+}
+.Assignment #mr22 {
+    margin-top: 1%;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.Assignment #mr22 table{
+    width: 100%;
+    font-family: poppins;
+}
+.Assignment #mr22 table tr{
+    border: 1px solid #ced1d4;
+}
+.Assignment #mr21 table button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+.Assignment #mr22 table #fth {
+    width: 10%;
+}
+.Assignment #mr22 table th, .Assignment #mr22 table td{
+    padding: 1%;
+    border-right: 1px solid #ced1d4;
+}
+#mm {
+    border: 0px;
+}
+#split {
+    border: 1px solid #ced1d4;
+    width: 100%;
+    display: grid;
+}

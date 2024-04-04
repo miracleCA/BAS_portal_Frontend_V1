@@ -1,0 +1,37 @@
+.header {
+    justify-content: space-between;
+    display: flex;
+    height: 85px;
+    background-color: #34383c;
+}
+#schooldata {
+    display: flex;
+}
+.header img {
+    margin-right: 1%;
+}
+.header #nav {
+    width: 12%;
+}
+.header #name {
+    display: grid;
+    color: white;
+    font-family: poppins;
+    align-self: center;
+}
+.header #name h2{
+    font-size: 27px;
+    margin-bottom: auto;
+}
+#staffdata {
+    width: 20%;
+    display: flex;
+}
+#staffdata img {
+    margin: auto 5%;
+    height: 30%;
+}
+#authname {
+    margin: auto 0px;
+    color: white;
+}

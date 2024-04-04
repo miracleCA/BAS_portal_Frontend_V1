@@ -1,0 +1,53 @@
+.Intramail #main {
+    display: flex;
+}
+.Intramail #main #mainrow {
+    display: grid;
+    height: 100%;
+    width: 85%;
+    margin: 2%;
+}
+.Intramail #main #r1 {
+    width: 100%;
+}
+.Intramail #main #r1 span {
+    width: 6.5%;
+}
+.Intramail #main #r1 .col {
+    width: 74%;
+}
+#mr2 {
+    width: 100%;
+    padding: 2%;
+    background-color: white;
+    border: 1px solid #ced1d4;
+    margin-bottom: 3%;
+}
+.Intramail #mr21 {
+    display: grid;
+    margin: 0;
+    width: 100%;
+}
+#flatrel {
+    justify-content: space-between;
+    display: flex;
+}
+#flatrel button {
+    display: flex;
+    border: none;
+    color: white;
+    margin: 5px;
+    background-color: green;
+    font-family: poppins;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+#flatrel #delbtn {
+    background-color: rgb(241, 43, 43);
+}
+#flatrel button i {
+    padding: 5px;
+}
+#flat {
+    display: flex;
+}

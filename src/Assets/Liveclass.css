@@ -1,0 +1,32 @@
+.Liveclass #main {
+    display: flex;
+}
+.Liveclass #main #Liverow {
+    display: grid;
+    height: 100%;
+    width: 85%;
+    margin: 2%;
+}
+.Liveclass #main #r1 {
+    width: 100%;
+}
+.Liveclass #main #r1 span {
+    width: 6.5%;
+}
+.Liveclass #main #r1 .col {
+    width: 74%;
+}
+#mr2 {
+    width: 100%;
+    padding: 2%;
+    background-color: white;
+    border: 1px solid #ced1d4;
+    margin-bottom: 3%;
+}
+#mr21 {
+    margin: 0;
+    width: 100%;
+}
+.Liveclass img, .Liveclass table {
+    margin-bottom: 2%;
+}
